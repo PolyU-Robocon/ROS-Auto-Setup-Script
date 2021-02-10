@@ -31,8 +31,12 @@ source ~/.bashrc;
 #install Dependencies for building packages
 sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential;
 sudo apt install -y python3-rosdep;
+
+#Initialize rosdep
 sudo rosdep init;
 rosdep update;
+
+#setup workspace
 mkdir -p ~/catkin_ws/src;
 cd ~/catkin_ws/;
 catkin_make;
