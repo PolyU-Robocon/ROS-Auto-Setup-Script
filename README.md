@@ -1,5 +1,5 @@
 # ROS-Auto-Setup-Script
-For Ubuntu Focal only(for now)
+For Ubuntu Focal and Bionic only(for now)
 ```Shell
 bash setupROS.sh
 ```
