@@ -5,7 +5,7 @@ if [ "${test}" == "focal" ]; then
         echo "Ubuntu verison Check...."
 else
         lsb_release -a
-        echo "this bash is built for Ubuntu 20.0x noetic. Your system is" ${test} 
+        echo "this bash is built for Ubuntu 20.0x noetic. Your system is Ubuntu:" ${test} 
         read -p "Do you want to continue?(Y/n)" yn
         if [ "${yn}" != "Y" ]; then
                 exit
