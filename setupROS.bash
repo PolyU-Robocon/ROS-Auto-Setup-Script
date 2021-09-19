@@ -44,7 +44,7 @@ setupMelodic()
   
   #install Dependencies for building packages
   sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential;
-  sudo apt install -y python3-rosdep;
+  sudo apt install -y python-rosdep python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential;
 
   #Initialize rosdep
   sudo rosdep init;
