@@ -23,7 +23,7 @@ setupMelodic()
 {
   echo "Ubuntu verison Check...."
   lsb_release -a
-  echo "this bash is built for ${Pink}Ubuntu 18.0x with ROS Melodic${NC}. Your system is Ubuntu:" ${Pink} ${test} ${NC}
+  echo -e "this bash is built for ${Pink}Ubuntu 18.0x with ROS Melodic${NC}. Your system is Ubuntu:" ${Pink} ${test} ${NC}
   read -p "Do you want to continue?(Y/n)" yn
   if [ "${yn}" != "Y" ]; then
     return 1 
@@ -58,7 +58,7 @@ setupNoetic()
 {
   echo "Ubuntu verison Check...."
   lsb_release -a
-  echo "this bash is built for ${Pink}Ubuntu 20.0x with ROS Noetic${NC}. Your system is Ubuntu:" ${Pink} ${test} ${NC}
+  echo -e "this bash is built for ${Pink}Ubuntu 20.0x with ROS Noetic${NC}. Your system is Ubuntu:" ${Pink} ${test} ${NC}
   read -p "Do you want to continue?(Y/n)" yn
   if [ "${yn}" != "Y" ]; then
     return 1 
