@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Pink ='\033[38;5;198m' #BullyU favorite color
+Pink='\033[38;5;198m' #BullyU favorite color
 NC='\033[0m' # No Color
 
 setupROSworkspace()
